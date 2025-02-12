@@ -45,7 +45,7 @@ function App() {
 
 
 
-        <Route path="/" element={<Frontend  title="Perfect Match" />} />
+        <Route path="/" element={<Frontend  title="Pal Samaj Vivah By Maneesh Kumar Pal, Bagahai" />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/admin" element={<Admin />} />
