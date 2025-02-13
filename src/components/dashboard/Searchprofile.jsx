@@ -3,7 +3,7 @@ import Navbardash from './Navbardash'
 import Navside from './Navside'
 import Footer from './Footer'
 import axios from 'axios'
-import userImage from './img/user.png'
+//import userImage from './img/user.png'
 import { useNavigate } from 'react-router-dom'
 import { Modal } from 'react-bootstrap';
 import UserProfile from './UserProfile';
