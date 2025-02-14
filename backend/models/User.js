@@ -1,82 +1,79 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const { Schema } = mongoose;
 
-
-
 const UserSchema = new Schema({
-  name:{
-    type:String,
-    required:true
+  name: {
+    type: String,
+    required: true,
   },
-  age:{
-    type:String,
-    required:true
+  age: {
+    type: String,
+    required: true,
   },
-  email:{
-    type:String,
-    required:true,
-    unique:true
+  email: {
+    type: String,
+    required: true,
+    unique: true,
   },
-  phone:{
-    type:Number
+  phone: {
+    type: Number,
   },
-  caste:{
-    type:String
-    
+  caste: {
+    type: String,
   },
-  dob:{
-    type:String
+  dob: {
+    type: String,
   },
-  state:{
-    type:String
+  fatherName: {
+    type: String,
   },
-  district:{
-    type:String
+  state: {
+    type: String,
   },
-  height:{
-    type:String
+  district: {
+    type: String,
   },
-  weight:{
-    type:String
+  village: {
+    type: String,
   },
-  
-  education:{
-    type:String
+  height: {
+    type: String,
   },
-  working:{
-    type:String
+  weight: {
+    type: String,
   },
 
+  education: {
+    type: String,
+  },
+  working: {
+    type: String,
+  },
 
-  password:{
-    type:String,
-    required:true
+  password: {
+    type: String,
+    required: true,
   },
-  description:{
-    type:String
+  description: {
+    type: String,
   },
-  
 
-  gender:{
-    type:String,
-    required:true
+  gender: {
+    type: String,
+    required: true,
   },
-  otp:{
-    type:Number
+  otp: {
+    type: Number,
   },
-  image:{
-    type:String
+  image: {
+    type: String,
   },
-  date:{
+  date: {
     type: Date,
-    default: Date.now
-  }
-
+    default: Date.now,
+  },
 });
 
-
-
-
-const User = mongoose.model('user', UserSchema);
+const User = mongoose.model("user", UserSchema);
 module.exports = User;
