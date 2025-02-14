@@ -106,11 +106,11 @@ const Signup = () => {
   const [Age, setAge] = useState("");
   const [Email, setEmail] = useState("");
   const [Phone, setPhone] = useState("");
-  const [Village, setVillage] = useState("");
-  const [Caste, setCaste] = useState("");
+  const [Village] = useState("");
+  //const [Caste, setCaste] = useState("");
   const [FatherName, setFatherName] = useState("");
   const [Dob, setDob] = useState("");
-  const [State, setState] = useState("");
+  //const [State, setState] = useState("");
   const [District, setDistrict] = useState("");
   const [Height, setHeight] = useState("");
   const [Weight, setWeight] = useState("");
